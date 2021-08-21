@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexs</title>
+  
+  <subtitle>好好学习，天天向上!</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-08-21T01:27:39.626Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>hexs</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于博客</title>
+    <link href="http://example.com/2021/08/21/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://example.com/2021/08/21/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</id>
+    <published>2021-08-21T01:22:52.000Z</published>
+    <updated>2021-08-21T01:27:39.626Z</updated>
+    
+    <content type="html"><![CDATA[<p>本站点主要记录自己学习pwn的过程，和一些与pwn相关的知识。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;本站点主要记录自己学习pwn的过程，和一些与pwn相关的知识。&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
