@@ -1175,7 +1175,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff61b8;
+  background: #a8ac8a;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2591,6 +2591,9 @@ ul.breadcrumb li + li:last-child {
 }
 .links-of-blogroll-item {
   padding: 0;
+}
+.content-wrap {
+  opacity: 0.9;
 }
 .sidebar {
   opacity: 0.9;
