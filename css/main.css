@@ -1175,7 +1175,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #a8ac8a;
+  background: #6306a7;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2603,6 +2603,9 @@ ul.breadcrumb li + li:last-child {
 }
 .popup {
   opacity: 0.9;
+}
+.container {
+  margin-top: 10px;
 }
 .site-brand-container {
   background: linear-gradient(200deg, #2e80a5, #0c0c0b);
