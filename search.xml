@@ -8,7 +8,7 @@
   </entry>
   <entry>
     <title>Python基础</title>
-    <url>/2021/02/23/Python%E5%9F%BA%E7%A1%80/</url>
+    <url>/2021/08/22/Python%E5%9F%BA%E7%A1%80/</url>
     <content><![CDATA[<p>简单总结了Python的基础知识！<br>包括变量、字符串、数据、循环、判断、列表、字典、函数、类。</p>
 <span id="more"></span>
 
@@ -113,7 +113,7 @@
 </ul>
 <h1 id="用户输入和while循环"><a href="#用户输入和while循环" class="headerlink" title="用户输入和while循环"></a>用户输入和while循环</h1><h2 id="用户输入"><a href="#用户输入" class="headerlink" title="用户输入"></a>用户输入</h2><ul>
 <li><p>input()函数让程序暂停运行，等待用户输入一些文本，获取用户输入后，Python将其存储在一个变量中，以方便使用。Python会将用户输入解读为字符串</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">name = imput(<span class="string">&quot;Please enter your name: &quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;Hello, &quot;</span>+name)</span><br><span class="line"><span class="comment"># 如果提示超过一行，可将提示存储在一个变量中，再将该变量传递给函数input()</span></span><br></pre></td></tr></table></figure></li>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">name = imput(<span class="string">&quot;Please enter your name: &quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;Hello, &quot;</span>+name)</span><br><span class="line"><span class="comment"># 如果提示超过一行，可将提示存储在一个变量中，再将该变量传递给函数input()</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># input()接收多个值</span></span><br><span class="line">number_a, number_b = (<span class="built_in">input</span>().split())</span><br></pre></td></tr></table></figure></li>
 <li><p>int()函数将数字的字符串表示 转换为数值表示</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt;age = <span class="built_in">input</span>(<span class="string">&quot;How old are you? &quot;</span>)</span><br><span class="line">How old are you? <span class="number">21</span></span><br><span class="line">&gt;&gt;&gt;age = <span class="built_in">int</span>(age)</span><br><span class="line">&gt;&gt;&gt;age &gt;= <span class="number">18</span></span><br><span class="line"><span class="literal">True</span></span><br></pre></td></tr></table></figure></li>
 <li><p>求模运算符(%)将两个数相除并返回余数</p>
